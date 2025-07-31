@@ -7,10 +7,17 @@ body {
   margin: 0;
   padding: 0;
   background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .judul {
   font-family: 'Jawapalsu', sans-serif;
-  font-size: 48px;
+  font-size: 4vw; /* responsif */
   text-align: center;
+  padding: 1rem;
+  max-width: 90%;
+  word-wrap: break-word;
 }
