@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Jawapalsu';
+  src: url('JAWAPALSU.TTF') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.judul {
+  font-family: 'Jawapalsu', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
